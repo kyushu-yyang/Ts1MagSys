@@ -61,6 +61,7 @@ class XCOMETConstruction : public XQuenchTransient
     
     /// @brief connection of shell
     void ConnectShell(XThermalSolver* mag1, XThermalSolver* mag2, const double l, const double dt);
+    void ConnectMagnet(XThermalSolver* mag1, XThermalSolver* mag2, const double l, const double dt);
     
 
   private:
